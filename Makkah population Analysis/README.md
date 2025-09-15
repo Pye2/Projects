@@ -1,5 +1,5 @@
 # Makkah population Analysis
-##The provided dataset offers a comprehensive insight into the demographic dynamics
+## The provided dataset offers a comprehensive insight into the demographic dynamics
 of the Makkah region over a span of thirteen years, from 2010 to 2022. It 
 meticulously categorizes the population estimates based on gender, nationality 
 (Saudi and Non-Saudi), and year. This data showcases the evolving composition of 
