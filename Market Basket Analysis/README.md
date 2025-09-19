@@ -38,3 +38,6 @@ than expected.
 The extracted rules are ranked by their lift and support values, displaying the top 10 rules 
 based on these metrics, High lift values indicate strong positive association between 
 products, helping to identify items that are frequently bought together.
+
+
+Data Source: https://www.kaggle.com/datasets/prasad22/retail-transactions-dataset
