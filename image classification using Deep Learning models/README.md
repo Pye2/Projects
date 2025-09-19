@@ -39,3 +39,7 @@ models superior performance, with Area Under the Curve (AUC) nearing 0.9,
 compared to 0.84 and 0.83 for the RNN and FNN, respectively, This analysis suggests 
 that convolutional layers are more suitable for image classification tasks where 
 spatial patterns are crucial.
+
+
+
+Data Source: https://www.kaggle.com/datasets/aymanalzahrani7/cars-and-plans-pictures-dataset
