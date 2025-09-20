@@ -1,10 +1,11 @@
 # EDA of tips & diamonds Dataset
 
 ## Tools:
-pandas
 
-numpy
+- pandas
 
-matplotlib
+- numpy
 
-seaborn
+- matplotlib
+
+- seaborn
