@@ -1,3 +1,10 @@
+![poster](Project_Poster.jpg)
+
+
+
+
+
+
 # Deep Learning-Based Classification of Lung Diseases Using CNNs and Transfer Learning
 
 # Abstract
