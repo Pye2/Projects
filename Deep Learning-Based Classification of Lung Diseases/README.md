@@ -73,4 +73,9 @@ One of the key aspects observed was the performance consistency across different
 There are Potential Improvements To enhance the models performance, several strategies should be explored. Implementing advanced regularization techniques, such as dropout, batch normalization, and L1/L2 regularization, can help mitigate overfitting by ensuring better generalization, Additionally, integrating hybrid models that combine CNNs with attention mechanisms, such as Vision Transformers, may provide improved feature extraction by focusing on the most relevant parts of the lung images.
 
 
+# Conclusion
+This study demonstrated the effectiveness of deep learning techniques in classifying lung diseases from chest X-ray images, By comparing different model architectures, including custom CNNs, ResNet50, and DenseNet-121, we found that transfer learning-based models achieved superior generalization compared to the custom built CNNs, The DenseNet-121 model, in particular, exhibited balanced performance, achieving 91.82% validation accuracy and 90.72% test accuracy.
+While deep learning has shown strong potential in medical image classification, the study also highlighted challenges such as overfitting, dataset limitations, and computational constraints, The custom CNN models struggled with generalization, whereas ResNet50 and DenseNet-121 demonstrated more reliable feature extraction,
+To further enhance performance, future work should focus on increasing dataset diversity, exploring hybrid models that integrate attention mechanisms, and improving explainability using techniques such as Grad-CAM. Additionally, cross-dataset validation will be essential to ensure the models robustness and real-world applicability,
+Overall, this research reinforces the potential of AI in assisting radiologists with lung disease diagnosis, paving the way for more automated, efficient, and accurate medical imaging solutions.
 
