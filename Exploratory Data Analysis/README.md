@@ -2,5 +2,9 @@
 
 ## Tools:
 pandas
-numpymatplotlib
+
+numpy
+
+matplotlib
+
 seaborn
