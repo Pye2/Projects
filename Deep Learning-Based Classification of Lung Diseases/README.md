@@ -1,3 +1,5 @@
+# Deep Learning-Based Classification of Lung Diseases Using CNNs and Transfer Learning
+
 # Abstract
 In the field of medical imaging, the classification and diagnosis of lung diseases using chest X-ray images have been a crucial area of applications in healthcare, We trained multiple models on five lung disease classes which is bacterial pneumonia ,coronavirus ,Normal ,tuberculosis , and viral pneumonia , including a custom-built CNN, a ResNet50-based transfer learning model, and a DenseNet-121 , we used ResNet50 and DenseNet-121models using PyTorch especially to enhance computation performance to training data, instead of waiting 90mintute to train the model using tensorflow library,  time consuming has become 8minutage (approximately) to train the model , we achieved 95.42% and 91.16% accuracy for custom CNN models ,where ResNet50 achieved 92% and DensNet121 91.82%,  The dataset consists of 6,054 training images, 2,016 validation images, and 2,025 test images, categorized into five disease classes,
 Data preprocessing included image resizing (224×224 pixels), normalization, and augmentation to improve generalization.
