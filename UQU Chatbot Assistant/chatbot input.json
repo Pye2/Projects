@@ -1,0 +1,295 @@
+
+{
+    "intents": [
+        
+        
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hi",
+                "hello",
+                "hey",
+                "good morning",
+                "good afternoon",
+                "good evening",
+                "how are you?",
+                "how's it going?",
+                "مرحبا",
+                "أهلا",
+                "أهلاً",
+                "السلام عليكم",
+                "صباح الخير",
+                "مساء الخير",
+                "كيف حالك؟",
+                "كيف الأمور؟"
+            ],
+            "responses": {
+                "en": [
+                    "Hello! How can I assist you today?",
+                    "Hi there! What can I do for you?",
+                    "Hey! How can I help?"
+                ],
+                "ar": [
+                    "مرحباً! كيف يمكنني مساعدتك اليوم؟",
+                    "أهلاً! كيف أساعدك؟",
+                    "السلام عليكم! كيف يمكنني تقديم المساعدة؟"
+                ]
+            }
+        },
+        {
+            "tag": "admission_requirements",
+            "patterns": [
+                "What are the admission requirements?",
+                "Tell me the criteria for admission",
+                "ما هي شروط القبول؟",
+                "أخبرني بمعايير القبول"
+            ],
+            "responses": {
+                "en": [
+                    "To be admitted to Umm Al-Qura University, applicants must: 1. Be Saudi citizens, children of Saudi mothers, or spouses of Saudi citizens. 2. Hold a high school diploma or equivalent accredited by the Ministry of Education. 3. Not exceed 25 years of age at the time of application. 4. Have valid scores in the General Aptitude Test and the Academic Achievement Test from the National Center for Assessment. 5. For English specialization, a valid score of at least 50 in the English Proficiency Test is required."
+                ],
+                "ar": [
+                    "للقبول في جامعة أم القرى، يجب على المتقدمين: 1. أن يكونوا سعوديي الجنسية، أو من أبناء السعوديات، أو أزواج السعوديات. 2. حاصلين على شهادة الثانوية العامة أو ما يعادلها ومعتمدة من وزارة التعليم. 3. ألا يتجاوز عمر المتقدم 25 عامًا عند وقت التقديم. 4. الحصول على درجات سارية المفعول في اختبارات القدرات العامة والتحصيلي من المركز الوطني للقياس. 5. بالنسبة لتخصص اللغة الإنجليزية، يجب الحصول على درجة لا تقل عن 50 في اختبار كفايات اللغة الإنجليزية."
+                ]
+            }
+        },
+        {
+            "tag": "admission_stages",
+            "patterns": [
+                "What are the stages of the admission process?",
+                "Tell me about the admission procedures",
+                "ما هي مراحل عملية القبول؟",
+                "أخبرني عن إجراءات القبول"
+            ],
+            "responses": {
+                "en": [
+                    "The admission process at Umm Al-Qura University includes the following stages: 1. Submission of the application and selection of specializations. 2. Announcement of nomination results (first sorting). 3. Confirmation of admission. 4. Announcement of nomination results (second sorting) if there are vacant seats. 5. Confirmation of admission for the second sorting. 6. Announcement of nomination results (third sorting) if there are vacant seats. 7. Confirmation of admission for the third sorting."
+                ],
+                "ar": [
+                    "تشمل عملية القبول في جامعة أم القرى المراحل التالية: 1. تقديم الطلب واختيار التخصصات. 2. إعلان نتائج الترشيح (الفرز الأول). 3. تأكيد القبول. 4. إعلان نتائج الترشيح (الفرز الثاني) في حال توفر مقاعد شاغرة. 5. تأكيد القبول للفرز الثاني. 6. إعلان نتائج الترشيح (الفرز الثالث) في حال توفر مقاعد شاغرة. 7. تأكيد القبول للفرز الثالث."
+                ]
+            }
+        },
+        {
+            "tag": "weighted_percentage_calculation",
+            "patterns": [
+                "How is the weighted percentage calculated?",
+                "Explain the method to calculate the weighted ratio",
+                "كيف يتم احتساب النسبة الموزونة؟",
+                "اشرح لي طريقة حساب النسبة الموزونة"
+            ],
+            "responses": {
+                "en": [
+                "The weighted percentage is calculated as follows: Weighted Percentage = (High School GPA × University Required Percentage) + (General Aptitude Test Score × University Required Percentage) + (Academic Achievement Test Score × University Required Percentage)."
+                ],
+                "ar": [
+                "يتم احتساب النسبة الموزونة كالتالي: النسبة الموزونة = (المعدل التراكمي للثانوية العامة × النسبة المطلوبة من الجامعة) + (درجة اختبار القدرات العامة × النسبة المطلوبة من الجامعة) + (درجة اختبار التحصيل الدراسي × النسبة المطلوبة من الجامعة)."
+                ]
+            }
+        },
+        {
+            "tag": "document_submission",
+            "patterns": [
+                "What documents are required for admission?",
+                "Tell me the required documents for registration",
+                "ما هي المستندات المطلوبة للتسجيل؟",
+                "ما الأوراق المطلوبة للقبول؟"
+            ],
+            "responses": {
+                "en": [
+                    "Required documents for admission include: 1. Original high school certificate and a certified copy. 2. Original ID (National ID or Iqama) and a copy. 3. Valid aptitude and achievement test scores. 4. A personal photo with a white background."
+                ],
+                "ar": [
+                    "المستندات المطلوبة للقبول تشمل: 1. شهادة الثانوية العامة الأصلية وصورة منها. 2. الهوية الوطنية أو الإقامة الأصلية وصورة منها. 3. درجات اختبار القدرات والتحصيلي السارية المفعول. 4. صورة شخصية بخلفية بيضاء."
+                ]
+            }
+        },
+        {
+            "tag": "post_admission_procedures",
+            "patterns": [
+                "What should I do after being admitted?",
+                "Tell me the steps after admission",
+                "ماذا أفعل بعد القبول؟",
+                "أخبرني بالخطوات بعد القبول"
+            ],
+            "responses": {
+                "en": [
+                "After being admitted to Umm Al-Qura University, you should: 1. Obtain your university ID number through your account on the unified admission portal. 2. Your account on the academic portal will be activated, and your study schedule will be registered automatically. 3. Regularly check your university email for official communications. 4. If you wish to cancel your admission, you can do so electronically through the unified admission portal."
+                ],
+                "ar": [
+                "بعد القبول في جامعة أم القرى، يجب عليك: 1. الحصول على رقمك الجامعي من خلال حسابك في بوابة القبول الموحد. 2. سيتم تفعيل حسابك في البوابة الأكاديمية وتسجيل جدولك الدراسي تلقائيًا. 3. متابعة بريدك الإلكتروني الجامعي بانتظام للتواصل الرسمي. 4. إذا رغبت في إلغاء قبولك، يمكنك ذلك إلكترونيًا عبر بوابة القبول الموحد."
+                ]
+            }
+        },
+        
+        {
+            "tag": "farewell",
+            "patterns": [
+                "bye",
+                "goodbye",
+                "see you later",
+                "talk to you soon",
+                "see you",
+                "take care",
+                "have a nice day",
+                "have a good day",
+                "farewell",
+                "catch you later",
+                "all the best",
+                "see you next time",
+                "goodnight",
+                "good night",
+                "مع السلامة",
+                "وداعاً",
+                "إلى اللقاء",
+                "أراك لاحقاً",
+                "أراك قريباً",
+                "أراك فيما بعد",
+                "أعتني بنفسك",
+                "أتمنى لك يوماً سعيداً",
+                "أتمنى لك يومًا جيدًا",
+                "وداعاً وأتمنى لك التوفيق",
+                "ليلة سعيدة"
+            ],
+            "responses": {
+                "en": [
+                    "Goodbye! Have a great day!",
+                    "See you soon! Take care!",
+                    "Bye! Hope to talk to you again soon!",
+                    "Farewell! Wishing you the best!",
+                    "Goodnight and sweet dreams!"
+                ],
+                "ar": [
+                    "مع السلامة! أتمنى لك يوماً سعيداً!",
+                    "إلى اللقاء! أعتني بنفسك!",
+                    "وداعاً! أتمنى أن نتحدث مرة أخرى قريباً!",
+                    "وداعاً وأتمنى لك التوفيق!",
+                    "ليلة سعيدة وأحلاماً سعيدة!"
+                ]
+            }
+        },
+        {
+            "tag": "schedule_modification",
+            "patterns": [
+                "ما هي الفترة المحددة المسموحة لتعديل الجداول الدراسية؟",
+                "كم مدة تعديل الجدول الدراسي؟",
+                "ما هي مدة تعديل الجدول؟",
+                "How long is the schedule modification period?",
+                "What is the allowed time to modify the study schedule?",
+                "How much time is given to change schedules?"
+            ],
+            "responses": {
+                "en": [
+                    "The schedule modification period ranges from one to two weeks from the start of the semester.",
+                    "You can modify your schedule within the first one to two weeks of the semester."
+                ],
+                "ar": [
+                    "تتراوح المدة ما بين أسبوع إلى أسبوعين من بداية الفصل الدراسي.",
+                    "مدة تعديل الجداول الدراسية هي أسبوع إلى أسبوعين من بدء الفصل الدراسي."
+                ]
+            }
+        },
+        {
+            "tag": "honor_rank",
+            "patterns": [
+                "ما هي متطلبات الحصول على مرتبة الشرف الأولى والثانية؟",
+                "ما هي شروط الحصول على مرتبة الشرف؟",
+                "كيف يمكنني الحصول على مرتبة الشرف؟",
+                "What are the requirements for obtaining first and second honors?",
+                "What is needed to achieve first and second honors?",
+                "How can I earn first or second honors?"
+            ],
+            "responses": {
+                "en": [
+                    "To achieve first honors, you need a GPA of at least 3.75 out of 4 with an Excellent grade. For second honors, you need a GPA of 3.25 out of 4 with a high Very Good grade.",
+                    "First honors require a minimum GPA of 3.75 out of 4, and second honors require a GPA of 3.25 out of 4."
+                ],
+                "ar": [
+                    "يتطلب الحصول على مرتبة الشرف الأولى معدل لا يقل عن 3.75 من 4 بتقدير ممتاز. أما مرتبة الشرف الثانية فتتطلب معدل 3.25 من 4 بتقدير جيد جداً مرتفع.",
+                    "مرتبة الشرف الأولى تحتاج إلى معدل 3.75 على الأقل، ومرتبة الشرف الثانية تحتاج إلى معدل 3.25."
+                ]
+            }
+        },
+        {
+            "tag": "credit_hours",
+            "patterns": [
+                "ما هو حد الساعات المسموح لكل فصل دراسي؟",
+                "كم عدد الساعات المسموح بها في الفصل الدراسي؟",
+                "ما الحد الأقصى لساعات الدراسة في الفصل؟",
+                "What is the credit hour limit per semester?",
+                "How many credit hours are allowed each semester?",
+                "What is the maximum number of hours I can take in one semester?"
+            ],
+            "responses": {
+                "en": [
+                    "The maximum credit hour limit is 20 hours per semester.",
+                    "You can take up to 20 credit hours per semester as the maximum."
+                ],
+                "ar": [
+                    "لا تزيد عن 20 ساعة في الفصل الواحد كحد أقصى.",
+                    "الحد الأقصى للساعات الدراسية في الفصل الواحد هو 20 ساعة."
+                ]
+            }
+        },
+        {
+            "tag": "add_courses",
+            "patterns": [
+                "كيف يمكننا إضافة مقررات اختيارية؟",
+                "كيف يمكنني تسجيل المقررات الاختيارية؟",
+                "ما طريقة إضافة المقررات الاختيارية؟",
+                "How can we add elective courses?",
+                "What is the process to register for elective courses?",
+                "How do I add elective courses?"
+            ],
+            "responses": {
+                "en": [
+                    "Go to the Electronic Services page, then navigate to the Academic Portal. After that, click on 'Add Course' and get approval from the department.",
+                    "Elective courses can be added through the Academic Portal by requesting department approval."
+                ],
+                "ar": [
+                    "من خلال الذهاب إلى الخدمات الإلكترونية ثم الانتقال إلى صفحة البوابة الأكاديمية، بعد ذلك النقر على إضافة مقرر بموافقة القسم.",
+                    "يمكنك إضافة المقررات الاختيارية عبر بوابتي الأكاديمية بموافقة القسم."
+                ]
+            }
+        },
+        {
+            "tag": "absence",
+            "patterns": [
+                "ماهي نسبة الغياب للمقرر؟",
+                "ماهي نسبة الغياب المسموحة فالمقرر؟",
+                "كم نسبة الغياب المسموحة في المقرر الدراسي؟",
+                "ما هي نسبة الغياب التي لا يجب تجاوزها في المقرر؟",
+                "ما هو الحد الأقصى لنسبة الغياب للمقرر؟",
+                "كم عدد الساعات المسموح بها للغياب في الفصل الدراسي؟",
+                "ما هي نسبة الغياب التي تؤدي إلى الحرمان؟",
+                "كم نسبة الحضور المطلوبة للمقرر؟",
+                "ما هو الحد الأدنى للحضور في المقرر الدراسي؟",
+                "ما هي القوانين المتعلقة بنسبة الغياب؟",
+                "What is the allowed absence percentage for the course?",
+                "How much absence is permitted in the course?",
+                "What is the maximum absence percentage allowed in a course?",
+                "How many hours of absence are allowed during the semester?",
+                "What is the attendance percentage required for the course?",
+                "What happens if I exceed the allowed absence percentage?",
+                "How much attendance is mandatory for the course?",
+                "What are the rules regarding attendance percentages?"
+            ],
+            "responses": {
+                "en": [
+                    "The allowed absence percentage for the course is 25% of the total study hours.",
+                    "Students are not allowed to exceed 25% absence in the course.",
+                    "If the absence percentage exceeds 25%, the student will be prohibited from taking the final exams.",
+                    "Students must attend at least 75% of the course to avoid being disqualified.",
+                    "You must maintain a minimum attendance of 75% to comply with the university’s rules."
+                ],
+                "ar": [
+                    "نسبة الغياب المسموحة في المقرر هي 25% من إجمالي الساعات الدراسية.",
+                    "لا يجوز للطالب تجاوز نسبة 25% من الغياب في المقرر الدراسي.",
+                    "إذا تجاوزت نسبة الغياب 25%، سيتم حرمان الطالب من دخول الاختبارات النهائية.",
+                    "يجب أن تكون نسبة الحضور أكثر من 75% لتجنب الحرمان من المقرر.",
+                    "يجب أن يحافظ الطالب على نسبة حضور لا تقل عن 75% وفقاً لقوانين الجامعة."
+                ]
+            }
+        }
+    ]
+}
